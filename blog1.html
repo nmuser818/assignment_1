@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Blog 1</title>
+    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet"/>
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="prac.css">
+    </head>
+
+<body>
+
+  <!-- nav bar -->
+  <nav>
+    <div class="nav-bar">
+      <i class='bx bx-menu sidebarOpen' ></i>
+      <span class="logo"><a href="#"> ME</a> </span>
+      <div class="menu">
+        <div class="logo-toggle">
+          <span class="logo"><a herf="#"> ME </a> </span>
+          <i class='bx bx-x siderbarClose'></i>
+        </div>
+        
+        <ul class="nav-links">
+          <li><a href="test.html#home">Home</a></li>
+          <li><a href="test.html#education">Education</a></li>
+          <li><a href="test.html#achieve">Achievements</a></li>
+          <li><a href="test.html#skills">Skills</a></li>
+          <li><a href="blog.html#home"> My Blogs </a> </li>
+        </ul> 
+      </div>
+
+      <div class="darkLight-searchBox">
+        <div class="dark-light">
+          <i class='bx bx-moon moon' ></i>
+          <i class='bx bx-sun sun'></i>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+   <script src="script.js"></script>
+
+
+<!-- blog -->
+  <section id="blog">
+  <div class="blog-heading">
+      <h3> MY BLOGS </h3>
+  </div>
+
+  <div class="blog-container">
+      <!-- blog 1 -->
+      <div class="blog1-box">
+
+          <div class="blog1-img">
+              <img src="beach.jpg" alt="blog1">
+          </div>
+
+          <div class="like-button">
+            <div class="heart-bg">
+              <div class="heart-icon"></div>
+            </div>
+            <div class="likes-amount">0</div>
+          </div>
+          
+          <script src="liking1.js"></script>
+
+          <br>
+
+          <div class="comment-section">
+            <div class="post-comment">
+              <div class="comment-list">
+                <div class="flex">
+                  <div class="user">
+                    <div class="user-meta">
+                      <div class="name">Raj</div>
+                      <div class="day">10 days ago</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="comment">
+                  What a beautiful photo !
+                </div>
+              </div>
+
+              <div class="comment-list">
+                <div class="flex">
+                  <div class="user">
+                    <div class="user-meta">
+                      <div class="name">Sally</div>
+                      <div class="day">3 days ago</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="comment">
+                  The waves look soooo pretty.
+                </div>
+              </div>
+              <form action=""class="comment-box">
+                <div class="user">
+                  <div class="name">Comment</div>
+                </div>
+                <textarea name="comment" id=""cols="30"rows="10"></textarea>
+                <button class="comment-submit">Comment</button>
+              </form>
+            </div>
+          </div>
+        </div> 
+    </div> 
+  </section>  
+	</body>
+</html>
